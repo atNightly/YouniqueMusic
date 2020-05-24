@@ -3,27 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2E1F0A72422E283004AB9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0A62422E283004AB9F6 /* AppDelegate.swift */; };
-		A2E1F0A92422E283004AB9F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0A82422E283004AB9F6 /* SceneDelegate.swift */; };
-		A2E1F0AB2422E283004AB9F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0AA2422E283004AB9F6 /* ContentView.swift */; };
-		A2E1F0AD2422E286004AB9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E1F0AC2422E286004AB9F6 /* Assets.xcassets */; };
+		A2002300243610B600F7754D /* RecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20022FF243610B600F7754D /* RecommendCell.swift */; };
+		A240758A245CE55900820C11 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2407589245CE55900820C11 /* ResetPasswordViewController.swift */; };
+		A246E6D724395FAD00483D05 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246E6D624395FAD00483D05 /* ProfileViewController.swift */; };
+		A246E6D924395FF500483D05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246E6D824395FF500483D05 /* LoginViewController.swift */; };
+		A246E6DB2439600500483D05 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246E6DA2439600500483D05 /* SignUpViewController.swift */; };
+		A246E6DD2439602A00483D05 /* MusicPlayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246E6DC2439602A00483D05 /* MusicPlayDetailViewController.swift */; };
+		A246E6DF2439608800483D05 /* Basic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A246E6DE2439608800483D05 /* Basic.storyboard */; };
+		A246E6E12439631400483D05 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246E6E02439631400483D05 /* GuideViewController.swift */; };
+		A2611EFC245709820045724A /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2611EFB245709820045724A /* SongInfo.swift */; };
+		A2611EFE24570A100045724A /* jsonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2611EFD24570A100045724A /* jsonHandler.swift */; };
+		A2611F02245866960045724A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2611F01245866960045724A /* Assets.xcassets */; };
+		A2611F042458AE660045724A /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2611F032458AE660045724A /* Playlist.swift */; };
+		A2611F062458F0F20045724A /* CustomPlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2611F052458F0F20045724A /* CustomPlayListViewController.swift */; };
+		A28B4FF8243B044F00837C3D /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B4FF7243B044F00837C3D /* CommentViewController.swift */; };
+		A28B4FFA243B04E400837C3D /* PlayListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B4FF9243B04E400837C3D /* PlayListDetailViewController.swift */; };
+		A28B4FFC243B096400837C3D /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B4FFB243B096300837C3D /* CommentTableViewCell.swift */; };
+		A29DF1D22451186300E21930 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DF1D12451186300E21930 /* UserInfo.swift */; };
+		A29DF1D4245181C600E21930 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A29DF1D3245181C600E21930 /* GoogleService-Info.plist */; };
+		A29DF1D82451A05F00E21930 /* CommentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DF1D72451A05F00E21930 /* CommentList.swift */; };
+		A29DF1DA2454A3E100E21930 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DF1D92454A3E100E21930 /* PopUpViewController.swift */; };
 		A2E1F0B02422E286004AB9F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E1F0AF2422E286004AB9F6 /* Preview Assets.xcassets */; };
 		A2E1F0B32422E286004AB9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E1F0B12422E286004AB9F6 /* LaunchScreen.storyboard */; };
+		A2E1F0BB2422E395004AB9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0BA2422E395004AB9F6 /* AppDelegate.swift */; };
+		A2E1F0C52432B7A6004AB9F6 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0C42432B7A6004AB9F6 /* RootTabBarViewController.swift */; };
+		A2E1F0C72432B7D8004AB9F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0C62432B7D8004AB9F6 /* HomeViewController.swift */; };
+		A2E1F0C92432B7E5004AB9F6 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0C82432B7E5004AB9F6 /* LibraryViewController.swift */; };
+		A2E1F0CB2432B7FE004AB9F6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0CA2432B7FE004AB9F6 /* SearchViewController.swift */; };
+		A2E1F0CD2432D080004AB9F6 /* PlayListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F0CC2432D080004AB9F6 /* PlayListCell.swift */; };
+		A2E1F0CF2432DA78004AB9F6 /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E1F0CE2432DA78004AB9F6 /* Library.storyboard */; };
+		A2FB03302435F2AE0065C0E7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB032F2435F2AE0065C0E7 /* Home.storyboard */; };
+		A2FB03322435F2D40065C0E7 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB03312435F2D40065C0E7 /* Search.storyboard */; };
+		CB5FD5BD5C60B82AA12B45BA /* Pods_YouniqueMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45416D68A9D2FCFFFB5C808 /* Pods_YouniqueMusic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3EE064661EECEDBE89EC47 /* Pods-YouniqueMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouniqueMusic.release.xcconfig"; path = "Target Support Files/Pods-YouniqueMusic/Pods-YouniqueMusic.release.xcconfig"; sourceTree = "<group>"; };
+		A20022FF243610B600F7754D /* RecommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCell.swift; sourceTree = "<group>"; };
+		A2407589245CE55900820C11 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		A246E6D624395FAD00483D05 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A246E6D824395FF500483D05 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A246E6DA2439600500483D05 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A246E6DC2439602A00483D05 /* MusicPlayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayDetailViewController.swift; sourceTree = "<group>"; };
+		A246E6DE2439608800483D05 /* Basic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basic.storyboard; sourceTree = "<group>"; };
+		A246E6E02439631400483D05 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		A2611EFB245709820045724A /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
+		A2611EFD24570A100045724A /* jsonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonHandler.swift; sourceTree = "<group>"; };
+		A2611F01245866960045724A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2611F032458AE660045724A /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		A2611F052458F0F20045724A /* CustomPlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayListViewController.swift; sourceTree = "<group>"; };
+		A28B4FF7243B044F00837C3D /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		A28B4FF9243B04E400837C3D /* PlayListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewController.swift; sourceTree = "<group>"; };
+		A28B4FFB243B096300837C3D /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		A29DF1D12451186300E21930 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A29DF1D3245181C600E21930 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A29DF1D72451A05F00E21930 /* CommentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentList.swift; sourceTree = "<group>"; };
+		A29DF1D92454A3E100E21930 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		A2E1F0A32422E283004AB9F6 /* YouniqueMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouniqueMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2E1F0A62422E283004AB9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2E1F0A82422E283004AB9F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2E1F0AA2422E283004AB9F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A2E1F0AC2422E286004AB9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2E1F0AF2422E286004AB9F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2E1F0B22422E286004AB9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2E1F0B42422E286004AB9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E1F0BA2422E395004AB9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2E1F0C42432B7A6004AB9F6 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		A2E1F0C62432B7D8004AB9F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2E1F0C82432B7E5004AB9F6 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		A2E1F0CA2432B7FE004AB9F6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A2E1F0CC2432D080004AB9F6 /* PlayListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListCell.swift; sourceTree = "<group>"; };
+		A2E1F0CE2432DA78004AB9F6 /* Library.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
+		A2FB032F2435F2AE0065C0E7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A2FB03312435F2D40065C0E7 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		D5ABCDE3B2452E31EA79EA83 /* Pods-YouniqueMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouniqueMusic.debug.xcconfig"; path = "Target Support Files/Pods-YouniqueMusic/Pods-YouniqueMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		F45416D68A9D2FCFFFB5C808 /* Pods_YouniqueMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouniqueMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5FD5BD5C60B82AA12B45BA /* Pods_YouniqueMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +97,8 @@
 			children = (
 				A2E1F0A52422E283004AB9F6 /* YouniqueMusic */,
 				A2E1F0A42422E283004AB9F6 /* Products */,
+				FFE1DF61D8B5DEAB9857A1B1 /* Pods */,
+				A9786338173ED50A54AD5343 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +113,19 @@
 		A2E1F0A52422E283004AB9F6 /* YouniqueMusic */ = {
 			isa = PBXGroup;
 			children = (
-				A2E1F0A62422E283004AB9F6 /* AppDelegate.swift */,
-				A2E1F0A82422E283004AB9F6 /* SceneDelegate.swift */,
-				A2E1F0AA2422E283004AB9F6 /* ContentView.swift */,
-				A2E1F0AC2422E286004AB9F6 /* Assets.xcassets */,
+				A2611F01245866960045724A /* Assets.xcassets */,
+				A2E1F0BA2422E395004AB9F6 /* AppDelegate.swift */,
+				A2611EFD24570A100045724A /* jsonHandler.swift */,
+				A2E1F0C22432B750004AB9F6 /* Model */,
+				A2E1F0C32432B759004AB9F6 /* ViewController */,
 				A2E1F0B12422E286004AB9F6 /* LaunchScreen.storyboard */,
 				A2E1F0B42422E286004AB9F6 /* Info.plist */,
+				A29DF1D3245181C600E21930 /* GoogleService-Info.plist */,
 				A2E1F0AE2422E286004AB9F6 /* Preview Content */,
+				A2E1F0CE2432DA78004AB9F6 /* Library.storyboard */,
+				A2FB032F2435F2AE0065C0E7 /* Home.storyboard */,
+				A2FB03312435F2D40065C0E7 /* Search.storyboard */,
+				A246E6DE2439608800483D05 /* Basic.storyboard */,
 			);
 			path = YouniqueMusic;
 			sourceTree = "<group>";
@@ -75,6 +138,58 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A2E1F0C22432B750004AB9F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A20022FF243610B600F7754D /* RecommendCell.swift */,
+				A2E1F0CC2432D080004AB9F6 /* PlayListCell.swift */,
+				A28B4FFB243B096300837C3D /* CommentTableViewCell.swift */,
+				A29DF1D12451186300E21930 /* UserInfo.swift */,
+				A29DF1D72451A05F00E21930 /* CommentList.swift */,
+				A2611EFB245709820045724A /* SongInfo.swift */,
+				A2611F032458AE660045724A /* Playlist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2E1F0C32432B759004AB9F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2E1F0C42432B7A6004AB9F6 /* RootTabBarViewController.swift */,
+				A2E1F0C62432B7D8004AB9F6 /* HomeViewController.swift */,
+				A2E1F0C82432B7E5004AB9F6 /* LibraryViewController.swift */,
+				A2E1F0CA2432B7FE004AB9F6 /* SearchViewController.swift */,
+				A246E6DC2439602A00483D05 /* MusicPlayDetailViewController.swift */,
+				A246E6D624395FAD00483D05 /* ProfileViewController.swift */,
+				A246E6D824395FF500483D05 /* LoginViewController.swift */,
+				A246E6DA2439600500483D05 /* SignUpViewController.swift */,
+				A246E6E02439631400483D05 /* GuideViewController.swift */,
+				A28B4FF7243B044F00837C3D /* CommentViewController.swift */,
+				A28B4FF9243B04E400837C3D /* PlayListDetailViewController.swift */,
+				A29DF1D92454A3E100E21930 /* PopUpViewController.swift */,
+				A2611F052458F0F20045724A /* CustomPlayListViewController.swift */,
+				A2407589245CE55900820C11 /* ResetPasswordViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A9786338173ED50A54AD5343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F45416D68A9D2FCFFFB5C808 /* Pods_YouniqueMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFE1DF61D8B5DEAB9857A1B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5ABCDE3B2452E31EA79EA83 /* Pods-YouniqueMusic.debug.xcconfig */,
+				3C3EE064661EECEDBE89EC47 /* Pods-YouniqueMusic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2E1F0B72422E286004AB9F6 /* Build configuration list for PBXNativeTarget "YouniqueMusic" */;
 			buildPhases = (
+				3F65BF1C5392F51DE505A2E4 /* [CP] Check Pods Manifest.lock */,
 				A2E1F09F2422E283004AB9F6 /* Sources */,
 				A2E1F0A02422E283004AB9F6 /* Frameworks */,
 				A2E1F0A12422E283004AB9F6 /* Resources */,
+				AAA5EBDFB20C55555026A1CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,22 +250,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A246E6DF2439608800483D05 /* Basic.storyboard in Resources */,
+				A29DF1D4245181C600E21930 /* GoogleService-Info.plist in Resources */,
 				A2E1F0B32422E286004AB9F6 /* LaunchScreen.storyboard in Resources */,
+				A2FB03302435F2AE0065C0E7 /* Home.storyboard in Resources */,
+				A2FB03322435F2D40065C0E7 /* Search.storyboard in Resources */,
 				A2E1F0B02422E286004AB9F6 /* Preview Assets.xcassets in Resources */,
-				A2E1F0AD2422E286004AB9F6 /* Assets.xcassets in Resources */,
+				A2611F02245866960045724A /* Assets.xcassets in Resources */,
+				A2E1F0CF2432DA78004AB9F6 /* Library.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F65BF1C5392F51DE505A2E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouniqueMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA5EBDFB20C55555026A1CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YouniqueMusic/Pods-YouniqueMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YouniqueMusic/Pods-YouniqueMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YouniqueMusic/Pods-YouniqueMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2E1F09F2422E283004AB9F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E1F0A72422E283004AB9F6 /* AppDelegate.swift in Sources */,
-				A2E1F0A92422E283004AB9F6 /* SceneDelegate.swift in Sources */,
-				A2E1F0AB2422E283004AB9F6 /* ContentView.swift in Sources */,
+				A28B4FF8243B044F00837C3D /* CommentViewController.swift in Sources */,
+				A28B4FFA243B04E400837C3D /* PlayListDetailViewController.swift in Sources */,
+				A246E6D924395FF500483D05 /* LoginViewController.swift in Sources */,
+				A2E1F0CB2432B7FE004AB9F6 /* SearchViewController.swift in Sources */,
+				A29DF1D22451186300E21930 /* UserInfo.swift in Sources */,
+				A2E1F0C52432B7A6004AB9F6 /* RootTabBarViewController.swift in Sources */,
+				A2E1F0BB2422E395004AB9F6 /* AppDelegate.swift in Sources */,
+				A2611EFC245709820045724A /* SongInfo.swift in Sources */,
+				A246E6DB2439600500483D05 /* SignUpViewController.swift in Sources */,
+				A28B4FFC243B096400837C3D /* CommentTableViewCell.swift in Sources */,
+				A246E6E12439631400483D05 /* GuideViewController.swift in Sources */,
+				A29DF1D82451A05F00E21930 /* CommentList.swift in Sources */,
+				A2002300243610B600F7754D /* RecommendCell.swift in Sources */,
+				A2E1F0C92432B7E5004AB9F6 /* LibraryViewController.swift in Sources */,
+				A29DF1DA2454A3E100E21930 /* PopUpViewController.swift in Sources */,
+				A2E1F0C72432B7D8004AB9F6 /* HomeViewController.swift in Sources */,
+				A2611EFE24570A100045724A /* jsonHandler.swift in Sources */,
+				A240758A245CE55900820C11 /* ResetPasswordViewController.swift in Sources */,
+				A2611F042458AE660045724A /* Playlist.swift in Sources */,
+				A246E6D724395FAD00483D05 /* ProfileViewController.swift in Sources */,
+				A2611F062458F0F20045724A /* CustomPlayListViewController.swift in Sources */,
+				A246E6DD2439602A00483D05 /* MusicPlayDetailViewController.swift in Sources */,
+				A2E1F0CD2432D080004AB9F6 /* PlayListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +466,19 @@
 		};
 		A2E1F0B82422E286004AB9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5ABCDE3B2452E31EA79EA83 /* Pods-YouniqueMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"YouniqueMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = YouniqueMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yliu327-syr.edu.YouniqueMusic";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.syr.xwx.YouniqueMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,17 +487,19 @@
 		};
 		A2E1F0B92422E286004AB9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3EE064661EECEDBE89EC47 /* Pods-YouniqueMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"YouniqueMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = YouniqueMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yliu327-syr.edu.YouniqueMusic";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.syr.xwx.YouniqueMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

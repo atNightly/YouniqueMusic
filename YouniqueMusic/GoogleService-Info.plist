@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>622183464607-50eb7qd274cc7v0m3c22aeclpk49behg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.622183464607-50eb7qd274cc7v0m3c22aeclpk49behg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCB8yNxrbfw_xRMg1d7IDeUNMt7XBfNMJw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>622183464607</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.syr.xwx.YouniqueMusic</string>
+	<key>PROJECT_ID</key>
+	<string>youniquemusic-3b04d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>youniquemusic-3b04d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:622183464607:ios:0a68a34c634cd5aa49acaa</string>
+	<key>DATABASE_URL</key>
+	<string>https://youniquemusic-3b04d.firebaseio.com</string>
+</dict>
+</plist>
